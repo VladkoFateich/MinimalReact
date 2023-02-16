@@ -1,18 +1,18 @@
 export const Contacts = (props) => {
   const img = {
-    height: "65px"
+    height: "65px",
   };
   const title = {
     textTransform: "uppercase",
-    fontFamily: "Montserrat-Regular",
+    // fontFamily: "Montserrat-Regular",
     fontSize: "16px",
     lineHeight: "20px",
     marginTop: "28px",
-    marginBottom: "20px"
+    marginBottom: "20px",
   };
   const contactBox = {
     display: "flex",
-    gap: "5px"
+    gap: "5px",
   };
   return (
     <address>

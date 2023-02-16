@@ -1,14 +1,14 @@
 export const TeamContent = (props) => {
   const title = {
     textTransform: "uppercase",
-    fontFamily: "Montserrat-Regular",
+    // fontFamily: "Montserrat-Regular",
     fontSize: "23px",
     marginTop: "20px",
-    marginBottom: "6px"
+    marginBottom: "6px",
   };
   const specialization = {
-    fontFamily: "Vollkorn-Regular",
-    fontSize: "14px"
+    // fontFamily: "Vollkorn-Regular",
+    fontSize: "14px",
   };
   return (
     <div>

@@ -9,28 +9,28 @@ export const Baner = ({ open, setOpen, ...props }) => {
     backgroundSize: "cover",
     backgroundPosition: "center center",
     padding: "105px 26.5% 101px 26.5%",
-    position: "relative"
+    position: "relative",
   };
   const title = {
     fontSize: "50px",
     lineHeight: "55px",
     marginBottom: "30px",
-    color: "white"
+    color: "white",
   };
   const subTitle = {
     fontSize: "20px",
     color: "white",
-    marginTop: "50px"
+    marginTop: "50px",
   };
   const descriptionBlock = {
-    backgroundColor: "#fefec9"
+    backgroundColor: "#fefec9",
   };
   const p = {
-    fontFamily: "Vollkorn-Regular",
+    // fontFamily: "Vollkorn-Regular",
     fontSize: "18px",
     lineHeight: "25px",
     color: "#47474f",
-    padding: "60px 17.5% 59px 17.5%"
+    padding: "60px 17.5% 59px 17.5%",
   };
   return (
     <>

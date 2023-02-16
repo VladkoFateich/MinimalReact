@@ -4,25 +4,25 @@ export function ReviewContent(props) {
     display: "flex",
     flexDirection: "column",
     textAlign: "center",
-    alignItems: "center"
+    alignItems: "center",
   };
   const text = {
-    fontFamily: "Vollkorn-Regular",
+    // fontFamily: "Vollkorn-Regular",
     fontSize: "26px",
-    lineHeight: "33px"
+    lineHeight: "33px",
   };
   const img = {
     marginTop: "24px",
-    marginBottom: "10px"
+    marginBottom: "10px",
   };
   const name = {
-    fontFamily: "Montserrat-Regular",
+    // fontFamily: "Montserrat-Regular",
     fontStyle: "normal",
     fontWeight: "400",
     fontSize: "14px",
     lineHeight: "20px",
     color: "#ababab",
-    textTransform: "uppercase"
+    textTransform: "uppercase",
   };
 
   return (
