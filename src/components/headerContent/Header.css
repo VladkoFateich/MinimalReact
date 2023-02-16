@@ -1,0 +1,35 @@
+.nav {
+  margin-left: auto;
+  display: flex;
+}
+.mobileBtn {
+  display: none;
+}
+@media (max-width: 800px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    gap: 20px;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: -100%;
+    bottom: 0;
+    height: 40vh;
+    background-color: rgb(40, 165, 165);
+    font-size: 40px;
+  }
+  .active {
+    top: 0;
+  }
+  .mobileBtn {
+    display: block;
+    position: absolute;
+    right: 40px;
+    cursor: pointer;
+    z-index: 10;
+    transition: left 1s;
+  }
+}

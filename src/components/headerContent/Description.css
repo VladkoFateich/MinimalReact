@@ -1,0 +1,19 @@
+.description.open {
+  background-color: #fefec9;
+  padding-bottom: 59px;
+  display: block;
+}
+.img {
+  margin-top: -26px;
+  background-color: #fefec9;
+}
+.imgDown {
+  width: 52px;
+  margin-top: -26px;
+  background-color: #fefec9;
+}
+
+.description {
+  background-color: #fefec9;
+  display: none;
+}
