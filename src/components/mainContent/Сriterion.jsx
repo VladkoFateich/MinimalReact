@@ -17,6 +17,7 @@ export const Сriterion = (props) => {
     display: "flex",
     flexWrap: "wrap",
     gap: "3.2%",
+    justifyContent: "center",
   };
   return (
     <div style={main}>
