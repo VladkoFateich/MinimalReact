@@ -11,7 +11,6 @@
     "react-icons": "4.7.1",
     "react-router-dom": "6.8.1",
     "react-scripts": "5.0.1",
-    "homepage": "https://vladkofateich.github.io/MinimalReact/"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
@@ -22,8 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+
   },
   "browserslist": [
     ">0.2%",
