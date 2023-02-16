@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4ad9ebd6.css",
+    "main.js": "/static/js/main.b0035c86.js",
+    "static/media/background.jpg": "/static/media/background.b4573874e0983aacc7d4.jpg",
+    "static/media/GetInTouch.jpg": "/static/media/GetInTouch.c7572c7f0057a82f681d.jpg",
+    "index.html": "/index.html",
+    "main.4ad9ebd6.css.map": "/static/css/main.4ad9ebd6.css.map",
+    "main.b0035c86.js.map": "/static/js/main.b0035c86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ad9ebd6.css",
+    "static/js/main.b0035c86.js"
+  ]
+}
