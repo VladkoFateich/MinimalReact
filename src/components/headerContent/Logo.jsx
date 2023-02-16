@@ -5,13 +5,13 @@ export const Logo = (props) => {
     display: "flex",
     flexDirection: "row",
     flexWrap: "wrap",
-    alignItems: "center"
+    alignItems: "center",
   };
   const logoText = {
     marginLeft: "18px",
     // fontFamily: "Oswald-Regular",
     fontSize: "22px",
-    textTransform: "uppercase"
+    textTransform: "uppercase",
   };
   return (
     <div style={headerLogo}>

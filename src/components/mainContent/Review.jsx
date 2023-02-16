@@ -6,16 +6,16 @@ export const Review = (props) => {
     <ReviewContent key={review.id} review={review} />
   ));
   const main = {
-    padding: "79px 17.4% 74px 17.4%"
+    padding: "79px 17.4% 74px 17.4%",
   };
   const reviewsImg = {
-    marginBottom: "65px"
+    marginBottom: "65px",
   };
   const element = {
     display: "flex",
     justifyContent: "center",
     gap: "16%",
-    alignItems: "flex-end"
+    alignItems: "flex-end",
   };
   return (
     <div style={main}>

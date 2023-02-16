@@ -22,7 +22,7 @@ export const Header = ({ open, setOpen, ...props }) => {
     maxWidth: "100%",
     display: "flex",
     alignItems: "center",
-    padding: "1.25% 17.5% 1.25% 17.5%"
+    padding: "1.25% 17.5% 1.25% 17.5%",
   };
   return (
     <header>

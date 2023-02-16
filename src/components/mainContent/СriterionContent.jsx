@@ -3,11 +3,11 @@ export function СriterionContent(props) {
     textTransform: "uppercase",
     /* fontFamily: "Montserrat-Regular", */
     fontSize: "16px",
-    margin: "50px 0 20px 0"
+    margin: "50px 0 20px 0",
   };
   const text = {
-    fontFamily: "Vollkorn-Regular",
-    fontSize: "15px"
+    // fontFamily: "Vollkorn-Regular",
+    fontSize: "15px",
   };
   return (
     <div>

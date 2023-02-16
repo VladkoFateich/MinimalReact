@@ -5,18 +5,18 @@ export const Сriterion = (props) => {
     <СriterionContent key={criterion.id} criterion={criterion} />
   ));
   const main = {
-    padding: "79px 17.4% 74px 17.4%"
+    padding: "79px 17.4% 74px 17.4%",
   };
   const title = {
     textTransform: "uppercase",
     marginBottom: "25px",
     fontSize: "23px",
-    fontFamily: "Montserrat-Regular"
+    // fontFamily: "Montserrat-Regular"
   };
   const element = {
     display: "flex",
     flexWrap: "wrap",
-    gap: "3.2%"
+    gap: "3.2%",
   };
   return (
     <div style={main}>

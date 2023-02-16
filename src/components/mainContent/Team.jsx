@@ -5,13 +5,13 @@ export const Team = (props) => {
     <TeamContent key={team.id} team={team} />
   ));
   const main = {
-    padding: "79px 17.4% 74px 17.4%"
+    padding: "79px 17.4% 74px 17.4%",
   };
   const title = {
     textTransform: "uppercase",
     marginBottom: "25px",
     fontSize: "23px",
-    fontFamily: "Montserrat-Regular"
+    // fontFamily: "Montserrat-Regular"
   };
   const element = {
     display: "flex",
@@ -19,7 +19,7 @@ export const Team = (props) => {
     flexWrap: "wrap",
     justifyContent: "center",
     gap: "2%",
-    marginTop: "43px"
+    marginTop: "43px",
   };
   return (
     <div style={main}>

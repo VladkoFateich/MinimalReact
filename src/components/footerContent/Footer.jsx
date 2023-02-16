@@ -14,27 +14,27 @@ export const Footer = (props) => {
     backgroundSize: "cover",
     backgroundPosition: "center center",
     position: "relative",
-    padding: "79px 22% 75px 22%"
+    padding: "79px 22% 75px 22%",
   };
   const title = {
     textAlign: "center",
     textTransform: "uppercase",
-    fontFamily: "Montserrat-Regular",
+    // fontFamily: "Montserrat-Regular",
     fontSize: "23px",
-    lineHeight: "36px"
+    lineHeight: "36px",
   };
   const contacts = {
     marginTop: "63px",
     display: "flex",
     justifyContent: "center",
     textAlign: "center",
-    gap: "14%"
+    gap: "14%",
   };
   const feedback = {
     backgroundColor: "#000000",
     margin: "auto",
     padding: "69px 30% 75px 30%",
-    textAlign: "center"
+    textAlign: "center",
   };
   return (
     <footer>

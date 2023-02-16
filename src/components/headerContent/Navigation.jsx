@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 export const Navigation = (props) => {
   const headerMenu = {
-    textTransform: "uppercase"
+    textTransform: "uppercase",
   };
   const list = {
-    marginRight: "15px"
+    marginRight: "15px",
   };
 
   return (

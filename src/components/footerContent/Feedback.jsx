@@ -3,19 +3,19 @@ import logo2 from "../icon/logo2.png";
 export const Feedback = () => {
   const feedbackField = {
     display: "flex",
-    flexDirection: "column"
+    flexDirection: "column",
   };
   const field = {
     padding: "18px 0 17px 5%",
-    backgroundColor: "rgba(255, 255, 255, 0.2)"
+    backgroundColor: "rgba(255, 255, 255, 0.2)",
   };
   const fieldFourth = {
     padding: "18px 0 88px 5%",
-    backgroundColor: "rgba(255, 255, 255, 0.2)"
+    backgroundColor: "rgba(255, 255, 255, 0.2)",
   };
   const fieldOdd = {
     padding: "18px 0 17px 5%",
-    backgroundColor: "rgba(255, 255, 255, 0.18)"
+    backgroundColor: "rgba(255, 255, 255, 0.18)",
   };
   const feedbackButton = {
     maxWidth: "230px",
@@ -24,22 +24,22 @@ export const Feedback = () => {
     marginBottom: "37px",
     padding: "15px 60px 16px 60px",
     backgroundColor: "#000000",
-    fontFamily: "Vollkorn-Regular",
+    // fontFamily: "Vollkorn-Regular",
     fontStyle: "italic",
     fontSize: "17px",
     lineHeight: "22px",
     textAlign: "center",
     color: "#8bcac3",
-    border: "solid #8bcac3 1px"
+    border: "solid #8bcac3 1px",
   };
   const footerLogo = {
-    marginBottom: "14px"
+    marginBottom: "14px",
   };
   const rightText = {
-    fontFamily: "Vollkorn-Regular",
+    // fontFamily: "Vollkorn-Regular",
     fontSize: "15px",
     lineHeight: "22px",
-    color: "rgba(255, 255, 255, 0.4)"
+    color: "rgba(255, 255, 255, 0.4)",
   };
 
   return (
